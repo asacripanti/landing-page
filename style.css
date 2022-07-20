@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+}
+
+.header,
+.footer,
+.awesome {
+    background-color: #1F2937;
+}
+ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    justify-content: space-between;
+   
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 16px;
+
+}
+
+.text {
+    padding: 20px;
+
+}
+
+.subtext {
+    display: flex;
+    max-width: 50px;
+    justify-content: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.ad {
+    background-color: white;
+}
+
+.container {
+    background-color: #3882F6;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    
+}
