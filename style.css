@@ -4,7 +4,7 @@
     justify-content: space-around;
     height: 200px;
     color: white;
-    height: 400px;
+    height: 450px;
     }
 .header,
 .footer,
@@ -70,10 +70,7 @@ h2 {
     }
 .subtext {
     display: flex;
-    justify-content: center;
-    height: 200px;
-    gap: 50px;
-    align-items: flex-end;
+  gap: 20px;
     }
 .text { 
      flex-wrap: wrap;
@@ -89,11 +86,14 @@ h2 {
     }
 .footer {
     height: 75px;
-}
-.boxes {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    align-items: center;
+    color: white;
+}
+.boxes {
+   display: flex;
+   gap: 20px;
     
 }
 .box {
@@ -147,5 +147,14 @@ button {
 }
 .subtitle {
     text-align: center;
+    font-size: 24px;
+    font-weight: bold;
 
+}
+.container-two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
 }
